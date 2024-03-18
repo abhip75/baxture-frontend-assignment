@@ -1,3 +1,10 @@
+import Details from "../components/Details";
+
+
 export default function HomePage() {
-  return <div>Home page</div>;
+  return (
+    <div>
+      <Details/>
+    </div>
+  );
 }
